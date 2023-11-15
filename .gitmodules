@@ -1,0 +1,3 @@
+[submodule "dtext_rb"]
+	path = dtext_rb
+	url = https://github.com/danbooru/dtext_rb.git
