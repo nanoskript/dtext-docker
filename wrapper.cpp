@@ -1,6 +1,6 @@
 #include "dtext_rb/ext/dtext/dtext.h"
 
-#include <iostream>
+#include <cstring>
 #include <set>
 
 extern "C" {
