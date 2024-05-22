@@ -11,7 +11,5 @@ ADD ./build.sh ./wrapper.cpp ./
 RUN ./build.sh
 
 ADD ./main.py ./
+CMD pdm run uvicorn --host 0.0.0.0 --port $PORT main:app
 
-CMD ["pdm", "run", "uvicorn", \
-	"--host", "0.0.0.0", "--port", "$PORT", \
-	"main:app"]
